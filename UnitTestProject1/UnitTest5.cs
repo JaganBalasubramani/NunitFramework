@@ -13,6 +13,7 @@ namespace UnitTestProject1
         [Test]
         public void TestMethod1()
         {
+            //Master branch changes
             Thread.Sleep(2000);
             Debug.WriteLine("Test 5 and Method 1");
         }
