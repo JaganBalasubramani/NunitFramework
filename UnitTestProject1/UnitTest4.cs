@@ -6,8 +6,8 @@ using System.Diagnostics;
 
 namespace UnitTestProject1
 {
-    //[TestFixture]
-    //[Parallelizable(ParallelScope.Fixtures)]
+    [TestFixture]
+    [Parallelizable(ParallelScope.Fixtures)]
     public class UnitTest4
     {
         [Test]
